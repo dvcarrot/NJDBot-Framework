@@ -1,0 +1,12 @@
+{
+    "name": "pianorockcover/bot_template",
+    "description": "Template for bots developing",
+    "require": {
+    	"usmanhalalit/pixie": "*",
+    	"Bogdaan/viber-bot-php": "*",
+    	"irazasyed/telegram-bot-sdk": "*",
+    	"monolog/monolog": "*",
+    	"swiftmailer/swiftmailer": "*",
+        "radutopala/skype-bot-php": "*"
+    }
+}
