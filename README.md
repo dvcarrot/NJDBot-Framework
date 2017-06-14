@@ -1,6 +1,6 @@
 <p align="center">
     <a href="http://njdstudio.com/framework" target="_blank">
-        <img src="http://njdstudio.com/img/bot-framework-logo.png" width="400" alt="NJDBot Framework" />
+        <img src="http://njdstudio.com/img/bot-framework-logo.png" alt="NJDBot Framework" />
     </a>
 </p>
 
