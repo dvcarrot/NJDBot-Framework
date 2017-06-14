@@ -6,5 +6,11 @@
 		{
 			require(strtolower($class).'.php');
 		}
+		
+		if (file_exists($class.'.php'))
+		{
+			require($class.'.php');
+		}
+
 		return;
 	});
