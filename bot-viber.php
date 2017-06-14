@@ -9,9 +9,10 @@
 
 	$apiKey = $config['viber-config']['api-key'];
 	$viberBotSender = new Viber\Api\Sender([
-	    'name' => 'NJDPizzaBot',
-	    'avatar' => 'https://developers.viber.com/img/favicon.ico',
+	    'name' => $config['viber-config']['name'],
+	    'avatar' => $config['viber-config']['avatar'],
 	]);
+
 
 	try {
 	    $viberBot = new Viber\Bot(['token' => $apiKey]);

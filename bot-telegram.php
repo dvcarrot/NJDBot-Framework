@@ -32,8 +32,6 @@
 		
 
 		foreach ($replies as $reply) {
-			file_put_contents("log.txt", json_encode($reply));
-
 			if (count($reply->keyboard['inline_keyboard'])) {
 				$reply_markup = $telegram->replyKeyboardMarkup([
 					'inline_keyboard' => $reply->keyboard['inline_keyboard'], 

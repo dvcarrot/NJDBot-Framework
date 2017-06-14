@@ -13,11 +13,15 @@
 		/* Telegram config */
 		'telegram-config' => [
 			'token' => '',
+			'webhook-url' => '',
 		],
 
 		/* Viber config */
 		'viber-config' => [
 			'api-key' => '',
+			'webhook-url' => '',
+			'name' => '',
+			'avatar' => '',
 		],
 
 		/* Vk config */
