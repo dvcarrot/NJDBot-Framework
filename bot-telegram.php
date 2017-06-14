@@ -105,6 +105,6 @@
 			}	
 		}
 	} catch (\Exception $e) {
-		file_put_contents('log.txt', $e->getMessage()."\t".$e->getFile()."\t".$e->getLine());
+		file_put_contents('logs/telegram.txt', date('d.m.Y H:i')."\t".$e->getMessage()."\t".$e->getFile()."\t".$e->getLine()."\n", FILE_APPEND | LOCK_EX);
 	}
 
